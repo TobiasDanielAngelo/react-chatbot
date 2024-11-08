@@ -15130,7 +15130,7 @@ const Zp = () => {
         try {
           return await (
             await fetch(
-              "http://transparent-night.local/wp-json/myplugin/v1/get-private-key"
+              "https://flowmetrics.com.au/wp-json/myplugin/v1/get-private-key"
             )
           ).json();
         } catch (f) {
